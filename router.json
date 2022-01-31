@@ -1,0 +1,21 @@
+[
+    {
+        "routes": [
+            "create a repo",
+            "retrieves (with GET) the newly created Github repository.",
+            "create an isuue",
+            "retrieves the newly created Github repository issue",
+            "clean-up",
+            "retrieves the newly created Github repository issue"
+        ]
+        
+    },
+    {"routes": [
+        "create a repo",
+        "retrieves (with GET) the newly created Github repository.",
+        "create an isuue",
+        "retrieves the newly created Github repository issue",
+        "clean-up"
+    ]
+}
+]

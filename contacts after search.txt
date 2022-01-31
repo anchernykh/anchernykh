@@ -1,0 +1,36 @@
+Server Error in '/shop' Application.
+Value cannot be null.
+Parameter name: input
+Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+Exception Details: System.ArgumentNullException: Value cannot be null.
+Parameter name: input
+
+Source Error:
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.
+
+Stack Trace:
+
+
+[ArgumentNullException: Value cannot be null.
+Parameter name: input]
+   System.Text.RegularExpressions.Regex.Replace(String input, String replacement) +8451826
+   ElShop.Models.SearchProduct.ExtractAllWords() in G:\Project\ElShop\ElShop\Models\SearchProduct.cs:48
+   ElShop.Models.SearchProduct..ctor(IList`1 products, String keyWord) in G:\Project\ElShop\ElShop\Models\SearchProduct.cs:23
+   ElShop.Controllers.SearchController.FindProduct(String keyWord) in G:\Project\ElShop\ElShop\Controllers\SearchController.cs:25
+   lambda_method(Closure , ControllerBase , Object[] ) +139
+   System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters) +266
+   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters) +35
+   System.Web.Mvc.<>c__DisplayClassd.<InvokeActionMethodWithFilters>b__a() +80
+   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation) +466
+   System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName) +648
+   System.Web.Mvc.Controller.ExecuteCore() +146
+   System.Web.Mvc.<>c__DisplayClass8.<BeginProcessRequest>b__4() +56
+   System.Web.Mvc.Async.<>c__DisplayClass1.<MakeVoidDelegate>b__0() +25
+   System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult) +48
+   System.Web.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +431
+   System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step) +75
+   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) +158
+
+Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4110.0
