@@ -1,11 +1,11 @@
 [
    {
-      "url":"http://sisgradesyncservice.cengage.com"
+      "url":"https://sisgradesyncservice.cengage.com"
    },
    {
-      "url":"http://stage-sisgradesyncservice.cengage.com"
+      "url":"https://stage-sisgradesyncservice.cengage.com"
    },
    {
-      "url":"http://qa-sisgradesyncservice.cengage.com"
+      "url":"https://qa-sisgradesyncservice.cengage.com"
    }
 ]
